@@ -14,9 +14,9 @@ class Rectangle(Forme):
         self.largeur = largeur
 
     def aire(self):
-        return 6
+        return self.longueur * self.largeur
     
 forme = Forme()
-rectangle = Rectangle(34,12)
+rectangle = Rectangle(10,5)
 
 print(rectangle.aire())
